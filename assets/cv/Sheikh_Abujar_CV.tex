@@ -1,0 +1,619 @@
+%===========================================================
+% Sheikh Abujar - Resume
+% Target: Staff AI Researcher
+% X, The Moonshot Factory
+%===========================================================
+
+\documentclass[letterpaper,10pt]{article}
+
+%==================== PACKAGES ====================
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{microtype}
+
+%==================== PAGE SETUP ====================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.10in}
+\addtolength{\topmargin}{-0.62in}
+\addtolength{\textheight}{1.20in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\footskip}{4pt}
+\linespread{1.0}
+
+% ATS-friendly PDF text
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+%==================== SECTION FORMAT ====================
+\titleformat{\section}
+{\vspace{-3pt}\raggedright\large\bfseries}
+{}{0em}{}
+[\color{black}\titlerule \vspace{-5pt}]
+
+%==================== CUSTOM COMMANDS ====================
+
+\newcommand{\resumeItem}[1]{
+    \item {\small #1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]
+        {l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textbf{\small #2} \\
+        \textit{\small #3} & \textit{\small #4}
+    \end{tabular*}
+    \vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.0\textwidth}
+        {l@{\extracolsep{\fill}}r}
+        \small #1 & \textbf{\small #2}
+    \end{tabular*}
+    \vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{
+    \begin{itemize}[leftmargin=0.0in,label={},itemsep=0pt,
+        topsep=0pt,parsep=0pt,partopsep=0pt]
+}
+
+\newcommand{\resumeSubHeadingListEnd}{
+    \end{itemize}
+}
+
+\newcommand{\resumeItemListStart}{
+    \begin{itemize}[leftmargin=0.20in,itemsep=1pt,
+        topsep=3pt,parsep=0pt,partopsep=0pt]
+}
+
+\newcommand{\resumeItemListEnd}{
+    \end{itemize}\vspace{-2pt}
+}
+
+\renewcommand\labelitemi{
+    $\vcenter{\hbox{\tiny$\bullet$}}$
+}
+
+%===========================================================
+% DOCUMENT
+%===========================================================
+
+\begin{document}
+
+%==================== HEADER ====================
+
+\begin{center}
+
+    {\Huge \scshape Sheikh Abujar} \\[-1pt]
+
+    \textbf{
+    Applied AI Researcher $\mid$
+    Multimodal AI $\mid$
+    Time-Series Modeling $\mid$
+    Generative AI $\mid$
+    Scientific Machine Learning
+    }
+    \\[3pt]
+
+    Birmingham, AL
+    \quad
+    \raisebox{-0.1\height}\faPhone\
+    321-367-4199
+    \quad
+    \href{mailto:sabujar@uab.edu}{
+        \raisebox{-0.2\height}\faEnvelope\
+        \underline{sabujar@uab.edu}
+    }
+    \\[2pt]
+
+    \href{https://linkedin.com/in/abujar/}{
+        \faLinkedin\
+        \underline{linkedin.com/in/abujar}
+    }
+    \quad
+    \href{https://scholar.google.com/citations?user=s2ocyEgAAAAJ}{
+        \faGraduationCap\
+        \underline{Google Scholar: 1,380+ citations}
+    }
+    \quad
+    \href{https://github.com/sabujar}{
+        \faGithub\
+        \underline{github.com/sabujar}
+    }
+
+\end{center}
+
+\vspace{-11pt}
+
+%==================== SUMMARY ====================
+
+\section{Summary}
+
+\small
+\justifying
+
+Applied AI researcher and Ph.D. Candidate in Computer Science at the
+University of Alabama at Birmingham (UAB), developing machine learning
+methods for complex scientific and real-world systems. Research spans
+multivariate time-series forecasting, multimodal learning, transformer
+architectures, large language and vision-language models, longitudinal
+trajectory modeling, and computer vision. Experience applying AI across
+heterogeneous domains including remote sensing and environmental monitoring,
+healthcare, natural language processing, and large-scale consumer AI.
+Developed and evaluated deep learning systems for temporal dynamics,
+multimodal data integration, predictive modeling, and representation
+learning. Previously worked as a Machine Learning Research Intern with the Bixby ML team at Samsung Research America, contributing to large-scale machine learning pipelines and production-oriented AI workflows. Author and co-author of peer-reviewed
+AI/ML research with 1,380+ Google Scholar citations.
+
+\normalsize
+
+%==================== CORE EXPERTISE ====================
+
+\section{Core Expertise}
+
+\begin{itemize}[leftmargin=0.0in,label={},itemsep=0pt,
+    topsep=3pt,parsep=0pt,partopsep=0pt]
+\small
+\item{
+\textbf{Machine Learning \& AI:}
+Deep Learning, Transformers, Multimodal Learning, Time-Series Forecasting,
+Representation Learning, Generative AI, Large Language Models,
+Vision-Language Models, Computer Vision, Natural Language Processing
+\\[2pt]
+
+\textbf{Scientific \& Temporal Modeling:}
+Multivariate Time Series, Longitudinal Modeling, Temporal Representation
+Learning, Remote Sensing, Environmental Data, Predictive Modeling,
+Heterogeneous Data Integration
+\\[2pt]
+
+\textbf{Programming \& ML Frameworks:}
+Python, PyTorch, TensorFlow, NumPy, Pandas, OpenCV, scikit-learn,
+C, C++, R, SQL
+\\[2pt]
+
+\textbf{Engineering \& Research Tools:}
+Linux, Git/GitHub, Docker, REST APIs, Data Pipelines, Data Preprocessing,
+Model Evaluation, Experimental Design
+}
+\end{itemize}
+
+\vspace{-8pt}
+
+%==================== EXPERIENCE ====================
+
+\section{Research \& Professional Experience}
+
+\resumeSubHeadingListStart
+
+% UAB
+\resumeSubheading
+{University of Alabama at Birmingham}
+{Aug. 2022 -- Present}
+{Graduate Research Assistant, Computer Science}
+{Birmingham, AL}
+
+\resumeItemListStart
+
+\resumeItem{
+Conduct research on \textbf{multivariate time-series forecasting,
+temporal representation learning, transformer-based modeling, and
+machine learning for complex scientific data}.
+}
+
+\resumeItem{
+Designed \textbf{STAR: Spectral and Trend Adaptive Regime-Guided
+Forecasting}, a lightweight architecture that adaptively routes
+multivariate signals using spectral, trend, and cross-variable
+characteristics for long-horizon forecasting.
+}
+
+\resumeItem{
+Develop machine learning approaches for heterogeneous longitudinal
+systems where measurements occur across different time scales,
+resolutions, and data modalities.
+}
+
+\resumeItem{
+Conduct interdisciplinary AI research combining temporal modeling,
+multimodal data, transformer architectures, predictive modeling,
+and representation learning for biomedical applications.
+}
+
+\resumeItem{
+Collaborate with computer scientists, physicians, and domain researchers
+to translate complex scientific questions into computational formulations,
+machine learning experiments, and research prototypes.
+}
+
+\resumeItemListEnd
+
+% Samsung
+\resumeSubheading
+{Samsung Research America}
+{May 2024 -- Aug. 2024}
+{Machine Learning Research Intern, Bixby ML Team}
+{Mountain View, CA}
+
+\resumeItemListStart
+
+\resumeItem{
+Contributed to research and development for
+\textbf{large-scale machine learning systems} supporting
+production-oriented AI applications.
+}
+\resumeItem{
+Worked on data pipeline optimization, preprocessing workflows,
+experimental machine learning pipelines, and scalable inference
+strategies.
+}
+
+\resumeItem{
+Collaborated within an industry ML team to evaluate and improve
+machine learning workflows designed for large-scale AI systems.
+}
+
+\resumeItemListEnd
+
+% Independent University
+\resumeSubheading
+{Independent University of Bangladesh}
+{Feb. 2021 -- Dec. 2021}
+{Lecturer \& Research Lab Supervisor}
+{Dhaka, Bangladesh}
+
+\resumeItemListStart
+
+\resumeItem{
+Taught algorithms, data structures, artificial intelligence,
+object-oriented programming, and database systems.
+}
+
+\resumeItem{
+Supervised machine learning research involving experimental design,
+predictive modeling, quantitative evaluation, and research methodology.
+}
+
+\resumeItemListEnd
+
+% Daffodil
+\resumeSubheading
+{Daffodil International University}
+{Feb. 2015 -- Jan. 2021}
+{Lecturer \& Research Mentor, NLP/ML Lab}
+{Dhaka, Bangladesh}
+
+\resumeItemListStart
+
+\resumeItem{
+Conducted and supervised applied AI research while teaching artificial
+intelligence, data mining, algorithms, programming, and database systems.
+}
+
+\resumeItem{
+Mentored research in NLP, computer vision, deep learning, and predictive
+analytics from problem formulation and data preparation through model
+development and experimental evaluation.
+}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-7pt}
+
+%==================== PROJECTS ====================
+
+\section{Selected AI \& Scientific Modeling Projects}
+
+\resumeSubHeadingListStart
+
+% STAR
+\resumeProjectHeading
+{\textbf{STAR: Spectral and Trend Adaptive Regime-Guided Forecasting}
+$|$ \emph{PyTorch, Time-Series, Adaptive Modeling}}
+{}
+
+\resumeItemListStart
+
+\resumeItem{
+Developed a multivariate forecasting architecture that captures
+heterogeneous temporal regimes through specialized spectral, trend,
+and cross-variable representations.
+}
+
+\resumeItem{
+Evaluated the model on ETTh1, ETTh2, ETTm1, ETTm2, and Exchange
+benchmarks across prediction horizons of 96, 192, 336, and 720.
+}
+
+\resumeItem{
+Designed the architecture to remain computationally lightweight while
+capturing substantially different temporal behaviors across variables.
+}
+
+\resumeItem{
+The work received the \textbf{Best Student Paper Award at IEEE IRI 2026}.
+}
+
+\resumeItemListEnd
+
+% Algal Bloom
+\resumeProjectHeading
+{\textbf{Multimodal Algal Bloom Severity Modeling}
+$|$ \emph{Remote Sensing, Satellite Imagery, Climate Data}}
+{}
+
+\resumeItemListStart
+
+\resumeItem{
+Contributed to a multimodal deep learning approach for detecting and
+evaluating harmful algal bloom severity using
+\textbf{satellite imagery, climate variables, and elevation data}.
+}
+
+\resumeItem{
+Performed metadata analysis, label refinement, and multimodal feature
+investigation to improve modeling of environmentally relevant phenomena.
+}
+
+\resumeItem{
+Research resulted in a peer-reviewed publication at the
+\textbf{IEEE International Conference on Multimedia and Expo Workshops
+(ICMEW)}.
+}
+
+\resumeItemListEnd
+
+% Chronofy
+\resumeProjectHeading
+{\textbf{Chronofy: Time-Aware Retrieval-Augmented Generation}
+$|$ \emph{LLMs, RAG, Temporal Reasoning}}
+{}
+
+\resumeItemListStart
+
+\resumeItem{
+Contributed to a temporal reasoning framework for retrieval-augmented
+generation that incorporates information validity and temporal relevance
+into representation, retrieval, and reasoning.
+}
+
+\resumeItem{
+Investigated approaches for reducing temporal hallucination caused by
+plausible but outdated retrieved information.
+}
+
+\resumeItemListEnd
+
+% BK
+\resumeProjectHeading
+{\textbf{Longitudinal Prediction of BK Virus-Associated Nephropathy}
+$|$ \emph{Clinical AI, Temporal Modeling, Heterogeneous Data}}
+{}
+
+\resumeItemListStart
+
+\resumeItem{
+Developed machine learning frameworks for modeling kidney-transplant
+patient trajectories from longitudinal clinical measurements and
+heterogeneous patient information.
+}
+
+\resumeItem{
+Integrated temporal patterns across clinical variables for risk prediction
+and longitudinal outcome modeling in collaboration with physicians and
+biomedical researchers.
+}
+
+\resumeItemListEnd
+
+% Vision
+\resumeProjectHeading
+{\textbf{Medical Image \& Vision Modeling}
+$|$ \emph{Computer Vision, Deep Learning, DICOM, OCR}}
+{}
+
+\resumeItemListStart
+
+\resumeItem{
+Developed medical-image processing pipelines incorporating DICOM
+preprocessing, region extraction, OCR-based label recognition,
+and patch-level spatial analysis.
+}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-8pt}
+
+%==================== EDUCATION ====================
+\section{Education}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{University of Alabama at Birmingham}
+{Aug. 2022 -- Present}
+{Ph.D. Candidate in Computer Science}
+{Birmingham, AL}
+
+\resumeItemListStart
+
+\resumeItem{
+Graduate Research Assistant; UAB Blazer Fellowship recipient.
+}
+
+\resumeItem{
+\textbf{SREB-State Doctoral Scholars Fellowship}, awarded in 2026;
+fellowship support beginning Fall 2026.
+}
+
+\resumeItemListEnd
+
+\vspace{7pt}
+
+\resumeSubheading
+{Jahangirnagar University}
+{2016 -- 2017}
+{M.S. in Computer Science}
+{Dhaka, Bangladesh}
+
+\vspace{14pt}
+
+\resumeSubheading
+{Daffodil International University}
+{2010 -- 2014}
+{B.Sc. in Computer Science and Engineering}
+{Dhaka, Bangladesh}
+
+\resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%==================== SELECTED PUBLICATIONS ====================
+
+\section{Selected Publications}
+
+\small
+
+\begin{itemize}[leftmargin=0.20in,itemsep=4pt,
+    topsep=3pt,parsep=0pt,partopsep=0pt]
+
+\item
+\textbf{Abujar, S.}, Zhang, C.
+``STAR: Spectral and Trend Adaptive Regime-Guided Forecasting for
+Multivariate Time Series.''
+\textit{27th IEEE International Conference on Information Reuse and
+Integration for Data Science (IRI)}, 2026.
+\textbf{Best Student Paper Award.}
+
+\item
+\textbf{Abujar, S.}, Zhang, C.
+``Learning Which Forecast to Trust: Counterfactual Utility Routing
+for Multivariate Time Series.''
+\textit{Manuscript under review}, 2026.
+
+\item
+\textbf{Abujar, S.}, Zhang, C.
+``RIVET: Learning Directed Cross-Variable Dynamics through
+Counterfactual Interventions.''
+\textit{Manuscript under review}, 2026.
+
+\item
+Hossain, N., Rahman, M., \textbf{Abujar, S.}, et al.
+``Chronofy: A Temporal-Logical Decay Architecture for Information
+Validity in Time-Aware Retrieval-Augmented Generation.''
+\textit{27th IEEE International Conference on Information Reuse and
+Integration for Data Science (IRI)}, 2026.
+
+\item
+Zhao, F., Zhang, C., \textbf{Abujar, S.}
+``A Multimodal Approach for Evaluating Algal Bloom Severity Using
+Deep Learning.''
+\textit{IEEE International Conference on Multimedia and Expo Workshops
+(ICMEW)}, 2023.
+
+\item
+Rabby, A.K.M.S.A., Ali, H., Islam, M.M.,
+\textbf{Abujar, S.}, Rahman, F.
+``Enhancement of Bengali OCR by Specialized Models and Advanced
+Techniques for Diverse Document Types.''
+\textit{IEEE/CVF Winter Conference on Applications of Computer Vision
+Workshops (WACVW)}, 2024.
+
+\item
+Masum, A.K.M., \textbf{Abujar, S.}, Akter, S.,
+Ria, N.J., Hossain, S.A.
+``Transformer Based Bengali Chatbot Using General Knowledge Dataset.''
+\textit{IEEE International Conference on Machine Learning and
+Applications (ICMLA)}, 2021.
+
+\item
+\textbf{Abujar, S.}, Badhon, S.M.S.I., Duraisamy, P.
+``Handwritten Text Recognition for Non-Latin Languages Using Deep
+Learning: Bangla.''
+\textit{IEEE International Conference on Computing Communication and
+Networking Technologies (ICCCNT)}, 2021.
+
+\end{itemize}
+\vspace{-5pt}
+
+\noindent
+\textit{Complete publication record:}
+\href{https://scholar.google.com/citations?user=s2ocyEgAAAAJ}{
+\underline{Google Scholar: 1,380+ citations}
+}
+
+\normalsize
+
+%==================== AWARDS ====================
+
+\section{Selected Awards \& Recognition}
+
+\resumeItemListStart
+
+\resumeItem{
+\textbf{Best Student Paper Award, IEEE IRI 2026}:
+awarded for ``STAR: Spectral and Trend Adaptive Regime-Guided
+Forecasting for Multivariate Time Series.''
+}
+
+\resumeItem{
+\textbf{SREB-State Doctoral Scholars Fellowship}, 2026:
+selected as a doctoral scholar, with fellowship support beginning
+Fall 2026.
+}
+
+\resumeItem{
+\textbf{UAB Blazer Fellowship},
+University of Alabama at Birmingham.
+}
+
+\resumeItem{
+\textbf{Competitive Travel Award \& Trainee Oral Presentation Selection},
+AI in Nephrology Conference, 2026.
+}
+
+\resumeItem{
+\textbf{Best Researcher Award},
+Department of Computer Science and Engineering,
+Daffodil International University, 2019 \& 2020.
+}
+
+\resumeItem{
+\textbf{Best Paper Award},
+International Conference on Emerging Technologies in Data Mining
+and Information Security.
+}
+
+\resumeItemListEnd
+
+%===========================================================
+\end{document}

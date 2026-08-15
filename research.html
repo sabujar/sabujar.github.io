@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research · Sheikh Abujar</title>
+  <meta name="description" content="Research projects by Sheikh Abujar in time-series forecasting, multimodal and scientific machine learning.">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/theme.js"></script>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Sheikh Abujar</a>
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html" class="active">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="assets/cv/Sheikh_Abujar_CV.pdf">CV</a></li>
+        <li><button id="theme-toggle" aria-label="Toggle theme">☾</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="wrap">
+
+    <section>
+      <h1 class="hero-name" style="font-size:2rem; margin-bottom:0.6rem;">Research</h1>
+      <p class="lead">
+        I develop machine learning methods for systems that evolve over time — where
+        signals are heterogeneous, multimodal, and observed across different scales and
+        resolutions. My aim is to build models that are both principled and practical:
+        lightweight enough to deploy, yet expressive enough to capture the temporal and
+        cross-variable structure that real scientific and clinical systems exhibit.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Selected Projects</h2>
+
+      <div class="card">
+        <p class="meta">Time Series · Adaptive Modeling · PyTorch</p>
+        <h3>STAR: Spectral and Trend Adaptive Regime-Guided Forecasting<span class="badge">Best Paper</span></h3>
+        <p>
+          A lightweight multivariate forecasting architecture that adaptively routes
+          signals using spectral, trend, and cross-variable characteristics, capturing
+          heterogeneous temporal regimes for long-horizon prediction. Evaluated on ETTh1/2,
+          ETTm1/2, and Exchange across horizons of 96–720. <strong>Best Student Paper Award,
+          IEEE IRI 2026.</strong>
+        </p>
+      </div>
+
+      <div class="card">
+        <p class="meta">Time Series · Counterfactual Reasoning</p>
+        <h3>Counterfactual Utility Routing &amp; Cross-Variable Dynamics</h3>
+        <p>
+          Ongoing work on learning which forecasts to trust through counterfactual utility
+          routing, and on recovering directed cross-variable dynamics via counterfactual
+          interventions (RIVET). Two manuscripts under review, 2026.
+        </p>
+      </div>
+
+      <div class="card">
+        <p class="meta">Remote Sensing · Multimodal Deep Learning</p>
+        <h3>Multimodal Algal Bloom Severity Modeling</h3>
+        <p>
+          A multimodal deep learning approach for detecting and evaluating harmful algal
+          bloom severity by integrating satellite imagery, climate variables, and elevation
+          data. Published at the IEEE ICME Workshops (ICMEW).
+        </p>
+      </div>
+
+      <div class="card">
+        <p class="meta">LLMs · Retrieval-Augmented Generation</p>
+        <h3>Chronofy: Time-Aware Retrieval-Augmented Generation</h3>
+        <p>
+          A temporal reasoning framework for RAG that incorporates information validity and
+          temporal relevance into retrieval and reasoning, reducing temporal hallucination
+          from plausible but outdated retrieved content. IEEE IRI 2026.
+        </p>
+      </div>
+
+      <div class="card">
+        <p class="meta">Clinical AI · Longitudinal Modeling</p>
+        <h3>Longitudinal Prediction of BK Virus-Associated Nephropathy</h3>
+        <p>
+          Machine learning frameworks that model kidney-transplant patient trajectories from
+          longitudinal clinical measurements and heterogeneous patient data, developed in
+          collaboration with physicians and biomedical researchers.
+        </p>
+      </div>
+
+      <div class="card">
+        <p class="meta">Computer Vision · Medical Imaging</p>
+        <h3>Medical Image &amp; Vision Modeling</h3>
+        <p>
+          Medical-image pipelines incorporating DICOM preprocessing, region extraction,
+          OCR-based label recognition, and patch-level spatial analysis.
+        </p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © <span id="year">2026</span> Sheikh Abujar · Birmingham, AL ·
+      <a href="mailto:sabujar@uab.edu">sabujar@uab.edu</a>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
