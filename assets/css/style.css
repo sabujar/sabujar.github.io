@@ -70,9 +70,7 @@ body {
   padding: 0 40px;
 }
 
-/* Constrain long-form prose to a comfortable reading measure,
-   while structural blocks (nav, cards, grids) use the full width. */
-.lead, section > p, .hero p { max-width: 68ch; }
+/* Prose spans the full container width (fewer, longer lines). */
 
 /* ---------- Typography ---------- */
 h1, h2, h3, h4 {
