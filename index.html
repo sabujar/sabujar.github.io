@@ -3,65 +3,91 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sheikh Abujar</title>
-<meta name="description" content="Sheikh Abujar — Ph.D. Candidate in Computer Science, University of Alabama at Birmingham. Machine learning for time series, multimodal, and scientific data.">
+<title>Sheikh Abujar's Home Page</title>
+<meta name="description" content="Sheikh Abujar — Ph.D. Candidate in Computer Science, University of Alabama at Birmingham.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
 <style>
   body {
     font-family: "Times New Roman", Times, serif;
-    font-size: 17px;
-    line-height: 1.5;
-    color: #000;
-    background: #fff;
-    max-width: 820px;
-    margin: 28px auto 60px;
-    padding: 0 20px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000000;
+    background: #ffffff;
+    margin: 12px 16px;
   }
-  a { color: #00308f; }
+  a { color: #0000ee; }
   a:visited { color: #551a8b; }
-  h1 { font-size: 1.9em; margin: 0 0 2px; font-weight: bold; }
+  a:active { color: #ff0000; }
+
+  h1 { font-size: 2.1em; margin: 0 0 2px; }
   h2 {
-    font-size: 1.15em;
-    margin: 1.7em 0 0.5em;
-    padding-bottom: 2px;
-    border-bottom: 1px solid #000;
+    color: #000080;
+    font-size: 1.35em;
+    margin: 6px 0 4px;
   }
-  p { margin: 0.6em 0; }
-  ul { margin: 0.4em 0 0.8em; padding-left: 1.5em; }
-  li { margin: 0.25em 0; }
+  h3 { color: #660000; font-size: 1.05em; margin: 10px 0 2px; }
+
+  /* Classic beveled horizontal rule */
+  hr {
+    height: 0;
+    border: 0;
+    border-top: 2px groove #a0a0a0;
+    margin: 10px 0;
+  }
+
   img.photo {
     float: right;
-    width: 155px;
-    margin: 4px 0 12px 20px;
-    border: 1px solid #888;
+    width: 150px;
+    border: 3px ridge #909090;
+    margin: 0 0 10px 16px;
   }
-  .subtitle { font-size: 1.05em; margin: 0 0 0.2em; }
-  .contact { margin: 0.4em 0 0; }
-  .year { font-weight: bold; }
-  .note { color: #333; }
-  .pub { margin: 0.15em 0 0.7em; }
+
+  .tagline { font-style: italic; margin: 2px 0; }
+  .nav { text-align: center; font-weight: bold; }
+  .nav a { text-decoration: none; }
+  .nav a:hover { text-decoration: underline; }
+
+  ul { margin: 4px 0 8px; padding-left: 30px; }
+  li { margin: 2px 0; }
+  p { margin: 6px 0; }
   .me { font-weight: bold; }
-  .clear { clear: both; }
-  @media (max-width: 500px) { img.photo { float: none; display: block; margin: 4px 0 12px; } }
+  .foot { font-size: 0.85em; color: #333333; text-align: center; }
+  address { font-style: normal; }
+  @media (max-width: 500px) { img.photo { float: none; display: block; margin: 0 0 10px; } }
 </style>
 </head>
 <body>
 
 <!-- Add your photo as assets/img/headshot.jpg; it appears automatically. -->
-<img class="photo" src="assets/img/headshot.jpg" alt="Sheikh Abujar" onerror="this.style.display='none'">
+<img class="photo" src="assets/img/headshot.jpg" alt="[ photo ]" onerror="this.style.display='none'">
 
 <h1>Sheikh Abujar</h1>
-<p class="subtitle">Ph.D. Candidate, Department of Computer Science<br>
+<p class="tagline">Ph.D. Candidate, Department of Computer Science<br>
 University of Alabama at Birmingham</p>
-<p class="contact">
-  Email: <a href="mailto:sabujar@uab.edu">sabujar@uab.edu</a> &nbsp;|&nbsp;
-  <a href="https://scholar.google.com/citations?user=s2ocyEgAAAAJ">Google Scholar</a> &nbsp;|&nbsp;
-  <a href="https://github.com/sabujar">GitHub</a> &nbsp;|&nbsp;
-  <a href="https://linkedin.com/in/abujar">LinkedIn</a> &nbsp;|&nbsp;
-  <a href="https://orcid.org/0000-0002-3563-2118">ORCID</a> &nbsp;|&nbsp;
-  <a href="assets/cv/Sheikh_Abujar_CV.pdf">Curriculum Vitae [PDF]</a>
+<p>
+Email: <a href="mailto:sabujar@uab.edu">sabujar@uab.edu</a><br>
+<a href="https://scholar.google.com/citations?user=s2ocyEgAAAAJ">Google&nbsp;Scholar</a> &nbsp;&middot;&nbsp;
+<a href="https://github.com/sabujar">GitHub</a> &nbsp;&middot;&nbsp;
+<a href="https://linkedin.com/in/abujar">LinkedIn</a> &nbsp;&middot;&nbsp;
+<a href="https://orcid.org/0000-0002-3563-2118">ORCID</a> &nbsp;&middot;&nbsp;
+<a href="assets/cv/Sheikh_Abujar_CV.pdf">Curriculum Vitae [PDF]</a>
 </p>
 
+<hr>
+
+<p class="nav">
+[ <a href="#about">About</a> |
+<a href="#research">Research</a> |
+<a href="#pubs">Publications</a> |
+<a href="#awards">Awards</a> |
+<a href="#teaching">Teaching</a> |
+<a href="#service">Service</a> |
+<a href="assets/cv/Sheikh_Abujar_CV.pdf">CV</a> ]
+</p>
+
+<hr>
+
+<h2><a name="about"></a>About</h2>
 <p>
 I am a Ph.D. candidate in Computer Science at the University of Alabama at Birmingham,
 working on machine learning for complex temporal and scientific systems. My research
@@ -71,169 +97,155 @@ My recent work on <em>STAR</em>, an adaptive architecture for long-horizon forec
 received the Best Student Paper Award at IEEE IRI 2026. I previously interned with the
 Bixby ML team at Samsung Research America, and my work has accumulated 1,380+ citations.
 </p>
-
 <p>
-<strong>I am on the academic job market and seeking tenure-track assistant professor
-positions beginning Fall 2027.</strong>
+<b>I am on the academic job market and seeking tenure-track assistant professor positions
+beginning Fall 2027.</b>
+</p>
+<p>
+<b>Research interests:</b> time-series forecasting; multimodal learning; transformer
+architectures; representation learning; scientific machine learning; longitudinal and
+temporal modeling; large language and vision-language models; computer vision.
 </p>
 
-<h2>Research Interests</h2>
-<p>
-Time-series forecasting &middot; multimodal learning &middot; transformer architectures
-&middot; representation learning &middot; scientific machine learning &middot; longitudinal
-and temporal modeling &middot; large language and vision-language models &middot; computer vision.
-</p>
+<hr>
 
-<h2>Research</h2>
+<h2><a name="research"></a>Research</h2>
 <ul>
-  <li><strong>STAR: Spectral and Trend Adaptive Regime-Guided Forecasting.</strong>
+  <li><b>STAR: Spectral and Trend Adaptive Regime-Guided Forecasting.</b>
       A lightweight multivariate forecasting architecture that adaptively routes signals
       by spectral, trend, and cross-variable characteristics for long-horizon prediction.
-      <em>Best Student Paper, IEEE IRI 2026.</em></li>
-  <li><strong>Counterfactual utility routing and cross-variable dynamics.</strong>
+      <i>Best Student Paper, IEEE IRI 2026.</i></li>
+  <li><b>Counterfactual utility routing and cross-variable dynamics.</b>
       Learning which forecasts to trust, and recovering directed cross-variable dynamics
       through counterfactual interventions (RIVET). Two manuscripts under review.</li>
-  <li><strong>Multimodal algal bloom severity modeling.</strong>
+  <li><b>Multimodal algal bloom severity modeling.</b>
       Deep learning over satellite imagery, climate variables, and elevation data for
       environmental monitoring.</li>
-  <li><strong>Chronofy: time-aware retrieval-augmented generation.</strong>
+  <li><b>Chronofy: time-aware retrieval-augmented generation.</b>
       A temporal-reasoning framework that reduces temporal hallucination from outdated
       retrieved content.</li>
-  <li><strong>Longitudinal prediction of BK virus-associated nephropathy.</strong>
+  <li><b>Longitudinal prediction of BK virus-associated nephropathy.</b>
       Modeling kidney-transplant patient trajectories from heterogeneous longitudinal
       clinical data, with physicians and biomedical researchers.</li>
-  <li><strong>Medical image and vision modeling.</strong>
-      DICOM preprocessing, region extraction, OCR-based label recognition, and
-      patch-level spatial analysis.</li>
+  <li><b>Medical image and vision modeling.</b>
+      DICOM preprocessing, region extraction, OCR-based label recognition, and patch-level
+      spatial analysis.</li>
 </ul>
 
-<h2>Publications</h2>
-<p class="note">Bold indicates my name. Full list on
+<hr>
+
+<h2><a name="pubs"></a>Publications</h2>
+<p>Bold indicates my name. Complete list on
 <a href="https://scholar.google.com/citations?user=s2ocyEgAAAAJ">Google Scholar</a> (1,380+ citations).</p>
+<ol>
+  <li><span class="me">Sheikh Abujar</span>, C. Zhang.
+      &ldquo;STAR: Spectral and Trend Adaptive Regime-Guided Forecasting for Multivariate Time Series.&rdquo;
+      <i>27th IEEE Int'l Conf. on Information Reuse and Integration for Data Science (IRI)</i>, 2026.
+      <b>Best Student Paper Award.</b></li>
+  <li><span class="me">Sheikh Abujar</span>, C. Zhang.
+      &ldquo;Learning Which Forecast to Trust: Counterfactual Utility Routing for Multivariate Time Series.&rdquo;
+      Under review, 2026.</li>
+  <li><span class="me">Sheikh Abujar</span>, C. Zhang.
+      &ldquo;RIVET: Learning Directed Cross-Variable Dynamics through Counterfactual Interventions.&rdquo;
+      Under review, 2026.</li>
+  <li>N. Hossain, M. Rahman, <span class="me">Sheikh Abujar</span>, et al.
+      &ldquo;Chronofy: A Temporal-Logical Decay Architecture for Information Validity in Time-Aware
+      Retrieval-Augmented Generation.&rdquo;
+      <i>IEEE Int'l Conf. on Information Reuse and Integration (IRI)</i>, 2026.</li>
+  <li>A.K.M.S.A. Rabby, H. Ali, M.M. Islam, <span class="me">Sheikh Abujar</span>, F. Rahman.
+      &ldquo;Enhancement of Bengali OCR by Specialized Models and Advanced Techniques for Diverse Document Types.&rdquo;
+      <i>IEEE/CVF Winter Conf. on Applications of Computer Vision Workshops (WACVW)</i>, 2024.</li>
+  <li>F. Zhao, C. Zhang, <span class="me">Sheikh Abujar</span>.
+      &ldquo;A Multimodal Approach for Evaluating Algal Bloom Severity Using Deep Learning.&rdquo;
+      <i>IEEE Int'l Conf. on Multimedia and Expo Workshops (ICMEW)</i>, 2023.</li>
+  <li>A.K.M. Masum, <span class="me">Sheikh Abujar</span>, S. Akter, N.J. Ria, S.A. Hossain.
+      &ldquo;Transformer Based Bengali Chatbot Using General Knowledge Dataset.&rdquo;
+      <i>IEEE Int'l Conf. on Machine Learning and Applications (ICMLA)</i>, 2021.</li>
+  <li><span class="me">Sheikh Abujar</span>, S.M.S.I. Badhon, P. Duraisamy.
+      &ldquo;Handwritten Text Recognition for Non-Latin Languages Using Deep Learning: Bangla.&rdquo;
+      <i>IEEE Int'l Conf. on Computing Communication and Networking Technologies (ICCCNT)</i>, 2021.</li>
+</ol>
 
-<p class="pub"><span class="me">Sheikh Abujar</span>, C. Zhang.
-&ldquo;STAR: Spectral and Trend Adaptive Regime-Guided Forecasting for Multivariate Time Series.&rdquo;
-<em>27th IEEE Int'l Conf. on Information Reuse and Integration for Data Science (IRI)</em>, 2026.
-<strong>Best Student Paper Award.</strong></p>
+<hr>
 
-<p class="pub"><span class="me">Sheikh Abujar</span>, C. Zhang.
-&ldquo;Learning Which Forecast to Trust: Counterfactual Utility Routing for Multivariate Time Series.&rdquo;
-Manuscript under review, 2026.</p>
-
-<p class="pub"><span class="me">Sheikh Abujar</span>, C. Zhang.
-&ldquo;RIVET: Learning Directed Cross-Variable Dynamics through Counterfactual Interventions.&rdquo;
-Manuscript under review, 2026.</p>
-
-<p class="pub">N. Hossain, M. Rahman, <span class="me">Sheikh Abujar</span>, et al.
-&ldquo;Chronofy: A Temporal-Logical Decay Architecture for Information Validity in Time-Aware
-Retrieval-Augmented Generation.&rdquo;
-<em>IEEE Int'l Conf. on Information Reuse and Integration (IRI)</em>, 2026.</p>
-
-<p class="pub">A.K.M.S.A. Rabby, H. Ali, M.M. Islam, <span class="me">Sheikh Abujar</span>, F. Rahman.
-&ldquo;Enhancement of Bengali OCR by Specialized Models and Advanced Techniques for Diverse Document Types.&rdquo;
-<em>IEEE/CVF Winter Conf. on Applications of Computer Vision Workshops (WACVW)</em>, 2024.</p>
-
-<p class="pub">F. Zhao, C. Zhang, <span class="me">Sheikh Abujar</span>.
-&ldquo;A Multimodal Approach for Evaluating Algal Bloom Severity Using Deep Learning.&rdquo;
-<em>IEEE Int'l Conf. on Multimedia and Expo Workshops (ICMEW)</em>, 2023.</p>
-
-<p class="pub">A.K.M. Masum, <span class="me">Sheikh Abujar</span>, S. Akter, N.J. Ria, S.A. Hossain.
-&ldquo;Transformer Based Bengali Chatbot Using General Knowledge Dataset.&rdquo;
-<em>IEEE Int'l Conf. on Machine Learning and Applications (ICMLA)</em>, 2021.</p>
-
-<p class="pub"><span class="me">Sheikh Abujar</span>, S.M.S.I. Badhon, P. Duraisamy.
-&ldquo;Handwritten Text Recognition for Non-Latin Languages Using Deep Learning: Bangla.&rdquo;
-<em>IEEE Int'l Conf. on Computing Communication and Networking Technologies (ICCCNT)</em>, 2021.</p>
-
-<h2>Awards and Honors</h2>
+<h2><a name="awards"></a>Awards and Honors</h2>
 <ul>
-  <li><span class="year">2026</span> &mdash; Best Student Paper Award, IEEE IRI 2026 (for <em>STAR</em>).</li>
-  <li><span class="year">2026</span> &mdash; SREB-State Doctoral Scholars Fellowship (support from Fall 2026).</li>
-  <li><span class="year">2026</span> &mdash; IEEE TCMC Travel Award.</li>
-  <li><span class="year">2026</span> &mdash; Barrett R. and Oceana A. Bryant Endowed Travel Award.</li>
-  <li><span class="year">2026</span> &mdash; Competitive Travel Award &amp; Trainee Oral Presentation, AI in Nephrology Conference, University of San Diego.</li>
-  <li><span class="year">2022</span> &mdash; UAB Blazer Fellowship, University of Alabama at Birmingham.</li>
-  <li><span class="year">2022</span> &mdash; Bangladesh&ndash;Sweden Trust Fund Award (travel grant for study abroad on scholarship; Economic Relations Division, Ministry of Finance).</li>
-  <li><span class="year">2019 &amp; 2020</span> &mdash; Best Researcher Award, Dept. of CSE, Daffodil International University.</li>
-  <li><span class="year">2018</span> &mdash; Best Paper Award, Int'l Conf. on Emerging Technologies in Data Mining and Information Security.</li>
+  <li><b>2026</b> &mdash; Best Student Paper Award, IEEE IRI 2026 (for <i>STAR</i>).</li>
+  <li><b>2026</b> &mdash; SREB-State Doctoral Scholars Fellowship (support from Fall 2026).</li>
+  <li><b>2026</b> &mdash; IEEE TCMC Travel Award.</li>
+  <li><b>2026</b> &mdash; Barrett R. and Oceana A. Bryant Endowed Travel Award.</li>
+  <li><b>2026</b> &mdash; Competitive Travel Award &amp; Trainee Oral Presentation, AI in Nephrology Conference, University of San Diego.</li>
+  <li><b>2022</b> &mdash; UAB Blazer Fellowship, University of Alabama at Birmingham.</li>
+  <li><b>2022</b> &mdash; Bangladesh&ndash;Sweden Trust Fund Award (travel grant for study abroad on scholarship; Economic Relations Division, Ministry of Finance).</li>
+  <li><b>2019 &amp; 2020</b> &mdash; Best Researcher Award, Dept. of CSE, Daffodil International University.</li>
+  <li><b>2018</b> &mdash; Best Paper Award, Int'l Conf. on Emerging Technologies in Data Mining and Information Security.</li>
 </ul>
 
-<h2>Teaching</h2>
+<hr>
+
+<h2><a name="teaching"></a>Teaching and Experience</h2>
 <p>
 My teaching rests on two convictions: that education is fundamentally about human
 development, and that a student's time is their most valuable resource. Inspired by
-Randy Pausch's <em>The Last Lecture</em>, I pair rigorous fundamentals with hands-on
-projects and mentor students toward independent inquiry &mdash; because, as I like to
-put it, in learning you will teach, and in teaching you will learn.
+Randy Pausch's <i>The Last Lecture</i>, I pair rigorous fundamentals with hands-on
+projects and mentor students toward independent inquiry &mdash; because, as I like to put
+it, in learning you will teach, and in teaching you will learn.
 </p>
-<p>
-<strong>Courses taught:</strong> Artificial Intelligence, Machine Learning, Data Mining,
-Algorithms, Data Structures, Object-Oriented Programming, Database Systems, Computer Fundamentals.
-</p>
-<p>
-<strong>Mentoring:</strong> I have advised undergraduate and graduate researchers through
-the full research lifecycle &mdash; problem formulation, data preparation, model
-development, evaluation, and publication &mdash; in NLP, computer vision, and deep learning.
-</p>
+<p><b>Courses taught:</b> Artificial Intelligence, Machine Learning, Data Mining,
+Algorithms, Data Structures, Object-Oriented Programming, Database Systems, Computer Fundamentals.</p>
 
-<h2>Experience</h2>
+<h3>Experience</h3>
 <ul>
-  <li><span class="year">2022&ndash;present</span> &mdash; Graduate Research Assistant,
-      University of Alabama at Birmingham.</li>
-  <li><span class="year">Summer 2024</span> &mdash; Machine Learning Research Intern,
-      Samsung Research America (Bixby ML Team), Mountain View, CA.</li>
-  <li><span class="year">2021</span> &mdash; Lecturer &amp; Research Lab Supervisor,
-      Independent University of Bangladesh, Dhaka.</li>
-  <li><span class="year">2015&ndash;2021</span> &mdash; Lecturer &amp; Research Mentor,
-      NLP/ML Lab, Daffodil International University, Dhaka.</li>
+  <li><b>2022&ndash;present</b> &mdash; Graduate Research Assistant, University of Alabama at Birmingham.</li>
+  <li><b>Summer 2024</b> &mdash; Machine Learning Research Intern, Samsung Research America (Bixby ML Team), Mountain View, CA.</li>
+  <li><b>2021</b> &mdash; Lecturer &amp; Research Lab Supervisor, Independent University of Bangladesh, Dhaka.</li>
+  <li><b>2015&ndash;2021</b> &mdash; Lecturer &amp; Research Mentor, NLP/ML Lab, Daffodil International University, Dhaka.</li>
 </ul>
 
-<h2>Education</h2>
+<h3>Education</h3>
 <ul>
-  <li><span class="year">2022&ndash;present</span> &mdash; Ph.D. in Computer Science,
-      University of Alabama at Birmingham.</li>
-  <li><span class="year">2016&ndash;2017</span> &mdash; M.S. in Computer Science,
-      Jahangirnagar University, Dhaka, Bangladesh.</li>
-  <li><span class="year">2010&ndash;2014</span> &mdash; B.Sc. in Computer Science &amp; Engineering,
-      Daffodil International University, Dhaka, Bangladesh.</li>
+  <li><b>2022&ndash;present</b> &mdash; Ph.D. in Computer Science, University of Alabama at Birmingham.</li>
+  <li><b>2016&ndash;2017</b> &mdash; M.S. in Computer Science, Jahangirnagar University, Dhaka.</li>
+  <li><b>2010&ndash;2014</b> &mdash; B.Sc. in Computer Science &amp; Engineering, Daffodil International University, Dhaka.</li>
 </ul>
 
-<h2>Professional Service</h2>
-<p><strong>Invited talks and keynotes.</strong>
+<hr>
+
+<h2><a name="service"></a>Professional Service</h2>
+<p><b>Invited talks and keynotes.</b>
 Keynote, &ldquo;(Some of) AI: NLP Scenario and Challenges,&rdquo; SMART-2019, Teerthanker Mahaveer
 University, India (2019); Faculty Development Program, &ldquo;AI&ndash;ML&ndash;DL: Scenario and
 Challenges,&rdquo; M.G.R. Educational and Research Institute, Chennai; workshop, &ldquo;Machine
 Learning: Road to Research,&rdquo; Bangladesh Army International University of Science &amp;
 Technology; session speaker, Droidcon Dhaka 2017.</p>
 
-<p><strong>Editorial.</strong>
-Volume editor, <em>Decision Intelligence Analytics and the Implementation of Strategic
-Business Management</em>, Springer (Innovations in Communication and Computing).</p>
+<p><b>Editorial.</b>
+Volume editor, <i>Decision Intelligence Analytics and the Implementation of Strategic
+Business Management</i>, Springer (Innovations in Communication and Computing).</p>
 
-<p><strong>Journal reviewer.</strong>
+<p><b>Journal reviewer.</b>
 IEEE Transactions on Dependable and Secure Computing; Pattern Recognition; Neurocomputing;
 Expert Systems with Applications; Journal of King Saud University &ndash; Computer and
 Information Sciences; Digital Communications and Networks; PLOS ONE.</p>
 
-<p><strong>Conference program / technical committees.</strong>
+<p><b>Conference program / technical committees.</b>
 RTIP2R (2018&ndash;2021), Solapur University, India; IJCCI (2018, 2020), Daffodil
 International University; IEEE CSPA 2018, Universiti Teknologi MARA, Malaysia; CVIP 2018;
 ICRET (2018, 2020); Int'l Conf. on Big-data Service and Intelligent Computation, Wuhan,
 China (2019); Session Chair, MIDAS 2020.</p>
 
-<p><strong>Membership and outreach.</strong>
+<p><b>Membership and outreach.</b>
 Member, Association for Computing Machinery (ACM); Judge, National Hackathon 2016.</p>
 
-<h2>Contact</h2>
-<p>
-Department of Computer Science, University of Alabama at Birmingham, Birmingham, AL.<br>
-Email: <a href="mailto:sabujar@uab.edu">sabujar@uab.edu</a>
-</p>
+<hr>
 
-<hr class="clear" style="border:0; border-top:1px solid #ccc; margin-top:2.5em;">
-<p class="note" style="font-size:0.85em;">
-Last updated <script>document.write(new Date().toLocaleDateString('en-US',{year:'numeric',month:'long'}));</script>.
-</p>
+<address class="foot">
+Sheikh Abujar &middot; Department of Computer Science, University of Alabama at Birmingham &middot;
+Birmingham, AL<br>
+<a href="mailto:sabujar@uab.edu">sabujar@uab.edu</a><br>
+This page last updated
+<script>document.write(new Date().toLocaleDateString('en-US',{year:'numeric',month:'long'}));</script>.
+</address>
 
 </body>
 </html>
