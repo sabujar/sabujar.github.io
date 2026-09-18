@@ -11,14 +11,14 @@ deploys straight to GitHub Pages.
 sabujar.github.io/
 ├── index.html          # the entire site (all content, inline CSS)
 ├── assets/
-│   ├── img/            # → add headshot.jpg here (shows automatically)
+│   ├── img/            # → add headshot.png here (shows automatically)
 │   └── cv/             # historical LaTeX source (not linked)
 └── README.md
 ```
 
 ## Assets
 
-1. **Headshot** — save a photo as `assets/img/headshot.jpg`. It appears at the top
+1. **Headshot** — save a photo as `assets/img/headshot.png`. It appears at the top
    automatically; if the file is missing, the page simply omits it.
 2. **CV** — no CV PDF is published or linked, at the owner's request.
    The existing LaTeX source is historical; the homepage uses the September 2026
