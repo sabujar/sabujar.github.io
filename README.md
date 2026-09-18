@@ -30,6 +30,10 @@ Everything lives in `index.html`. To add a publication, award, or talk, copy an
 existing line and edit it. All styling is the small `<style>` block in the `<head>`.
 Update the footer's explicit last-updated date when changing the content.
 The homepage was synchronized with the supplied academic CV on September 18, 2026.
+It includes all 14 printed CV sections, the complete publication list, and the
+CV's original bullet structure. Research Interests follows About. Existing
+teaching philosophy, professional membership, and profile links are retained.
+Use periods, commas, or colons instead of em dashes in website copy.
 `v2.html` and `versions/` are historical design alternatives, not maintained profiles.
 
 ## Deploy
