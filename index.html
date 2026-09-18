@@ -35,9 +35,12 @@
     margin: 10px 0;
   }
 
+  .profile-header { display: flow-root; }
   img.photo {
     float: right;
-    width: 150px;
+    width: 260px;
+    max-width: 100%;
+    height: auto;
     border: none;
     margin: 0 0 10px 16px;
   }
@@ -59,6 +62,7 @@
 <body>
 
 <!-- Profile photograph. -->
+<header class="profile-header">
 <img class="photo" src="assets/img/headshot.png?v=2" alt="Sheikh Abujar" onerror="this.style.display='none'">
 <h1>Sheikh Abujar</h1>
 <p class="tagline">Ph.D. Candidate, Department of Computer Science<br>
@@ -73,6 +77,7 @@ Machine Learning &middot; Healthcare AI</p>
 <a href="https://linkedin.com/in/abujar/">LinkedIn</a> &nbsp;&middot;&nbsp;
 <a href="https://orcid.org/0000-0002-3563-2118">ORCID</a></p>
 <p><b>U.S. Permanent Resident</b></p>
+</header>
 <hr>
 <p class="nav">[ <a href="#about">About</a> |
 <a href="#research-interests">Research Interests</a> |
