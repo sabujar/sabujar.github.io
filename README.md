@@ -44,3 +44,18 @@ The repo `sabujar.github.io` is already published via GitHub Pages at
 > The earlier multi-page version (separate Research/Publications/Teaching/Service
 > pages with a stylesheet and dark-mode toggle) remains in the git history if ever
 > needed.
+
+## Saved stable version
+
+The complete profile with the enlarged square, borderless photo is preserved at
+https://sabujar.github.io/versions/stable-2026-09-18/.
+This snapshot includes its own photo so future photo changes do not alter it.
+The Git tag `stable-2026-09-18` also preserves the original site state.
+
+To restore the saved homepage and photo locally, run:
+
+```sh
+git restore --source stable-2026-09-18 -- index.html assets/img/headshot.png
+```
+
+Then commit and push to publish the restored design.
