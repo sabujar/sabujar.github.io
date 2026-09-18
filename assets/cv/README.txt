@@ -1,5 +1,2 @@
-Compile Sheikh_Abujar_CV.tex and save the output PDF here as:
-
-  Sheikh_Abujar_CV.pdf
-
-All "CV" links on the site point to that filename.
+No CV PDF is published or linked, at the owner's request.
+The existing LaTeX file is a historical source, not the current homepage source.

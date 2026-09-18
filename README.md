@@ -1,8 +1,8 @@
 # Sheikh Abujar — Academic Website
 
 A single, self-contained `index.html` in the plain, classic style of a traditional
-CS faculty homepage. No framework, no build step, no JavaScript beyond a one-line
-date stamp, no external fonts — just Times/serif HTML that loads instantly and
+CS faculty homepage. No framework, no build step, no external fonts — just
+Times/serif HTML that loads instantly and
 deploys straight to GitHub Pages.
 
 ## Structure
@@ -12,21 +12,25 @@ sabujar.github.io/
 ├── index.html          # the entire site (all content, inline CSS)
 ├── assets/
 │   ├── img/            # → add headshot.jpg here (shows automatically)
-│   └── cv/             # → add Sheikh_Abujar_CV.pdf here
+│   └── cv/             # historical LaTeX source (not linked)
 └── README.md
 ```
 
-## Two things to add
+## Assets
 
 1. **Headshot** — save a photo as `assets/img/headshot.jpg`. It appears at the top
    automatically; if the file is missing, the page simply omits it.
-2. **CV PDF** — compile your LaTeX and save it as `assets/cv/Sheikh_Abujar_CV.pdf`
-   (the "Curriculum Vitae" link points there).
+2. **CV** — no CV PDF is published or linked, at the owner's request.
+   The existing LaTeX source is historical; the homepage uses the September 2026
+   academic CV supplied separately.
 
 ## Editing
 
 Everything lives in `index.html`. To add a publication, award, or talk, copy an
 existing line and edit it. All styling is the small `<style>` block in the `<head>`.
+Update the footer's explicit last-updated date when changing the content.
+The homepage was synchronized with the supplied academic CV on September 18, 2026.
+`v2.html` and `versions/` are historical design alternatives, not maintained profiles.
 
 ## Deploy
 
